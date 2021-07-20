@@ -9,3 +9,10 @@ Topics explored in the notebook include
 - A neural network with convolutional layers and early stopping to perform image classification
 - Training, test, and validation data sets
 - Confusion matrices
+- Saving and loading model weights
+
+#### Instructions
+
+Download the [image data](https://www.kaggle.com/vijaykumar1799/face-mask-detection) and place the parent directory (`Dataset`) of the data in the same directory as the notebook and python script.
+
+The notebook `exploration.ipynb` is recommended for exploring the project. Package versions used in development and shown in the first cell; python `3.8.10` is used. There is an issue with tensorflow working correctly on Macbooks with M1 chips; see [this article](https://towardsdatascience.com/installing-tensorflow-on-the-m1-mac-410bb36b776) for a workaround.
